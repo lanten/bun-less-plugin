@@ -19,7 +19,7 @@ export const lessPlugin: BunPlugin = {
           compress: Boolean(build.config.minify),
         }
 
-        const result: any = await less.render(lessContent, options)
+        const result = await less.render(lessContent, options)
 
         return {
           contents: result.css,
