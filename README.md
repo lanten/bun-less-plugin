@@ -25,7 +25,7 @@ await Bun.build({
 
 ### Add `.less` Module Type
 
-```json
+```json5
 {
   "compilerOptions": {
     // ...
