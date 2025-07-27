@@ -1,6 +1,6 @@
 {
   "name": "bun-less-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bun plugin for compiling .less files to CSS",
   "type": "module",
   "main": "lib/index.ts",

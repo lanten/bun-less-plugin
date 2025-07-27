@@ -5,7 +5,7 @@ A Bun plugin for compiling .less files to CSS.
 ## Installation
 
 ```bash
-bun add bun-less-plugin
+bun add bun-less-plugin -D
 ```
 
 ## Usage
