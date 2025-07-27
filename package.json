@@ -1,0 +1,41 @@
+{
+  "name": "bun-less-plugin",
+  "version": "1.0.1",
+  "description": "Bun plugin for compiling .less files to CSS",
+  "type": "module",
+  "main": "lib/index.ts",
+  "exports": {
+    ".": "./lib/index.ts",
+    "./types": "./types/index.d.ts"
+  },
+  "files": [
+    "lib",
+    "types"
+  ],
+  "scripts": {
+    "test": "bun test"
+  },
+  "keywords": [
+    "bun",
+    "less",
+    "plugin"
+  ],
+  "devDependencies": {
+    "@types/bun": "^1.2.19",
+    "@types/less": "^3.0.8",
+    "less": "^4.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanten/bun-less-plugin.git"
+  },
+  "author": "lanten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lanten/bun-less-plugin/issues"
+  },
+  "homepage": "https://github.com/lanten/bun-less-plugin#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

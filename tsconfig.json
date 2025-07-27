@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "types": [
+      "@types/bun"
+    ],
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "types",
+  },
+  "include": [
+    "lib",
+    "tests",
+    "types",
+  ]
+}
